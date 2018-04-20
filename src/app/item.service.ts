@@ -4,7 +4,8 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class itemService {
 
-itensUrl = 'http://localhost:8080/itens';
+//itensUrl = 'http://localhost:8080/itens';
+  itensUrl = 'https://cryptic-shore-98814.herokuapp.com/itens';
 
   constructor(private http: HttpClient) { }
 
