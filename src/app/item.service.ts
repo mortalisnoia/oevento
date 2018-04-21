@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
 export class itemService {
 
 //itensUrl = 'http://localhost:8080/itens';
-  itensUrl = 'http://cryptic-shore-98814.herokuapp.com/itens';
+  itensUrl = 'https://cryptic-shore-98814.herokuapp.com/itens';
 
   constructor(private http: HttpClient) { }
 
