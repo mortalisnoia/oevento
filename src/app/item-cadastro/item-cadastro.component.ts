@@ -31,11 +31,6 @@ export class ItemCadastroComponent implements OnInit {
     });
   }
 
-  remover() {
-      this.itemService.remover(this.itens).subscribe(() => {
-      this.consultar();
-    });
-
-  }
+  
 
 }
