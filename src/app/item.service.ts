@@ -17,9 +17,5 @@ export class itemService {
     return this.http.post(this.itensUrl, item);
   }
 
-  remover(item: any){
-    return this.http.delete<any[]>(this.itensUrl);
-    //return this.remover(this.itensUrl);
-  }
-
+  
 }
